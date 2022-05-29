@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "588616125793",
+    "project_id": "policetracker-c84bf",
+    "storage_bucket": "policetracker-c84bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588616125793:android:8f752b9198140711dcc920",
+        "android_client_info": {
+          "package_name": "com.johnjava.ptracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588616125793-qd61r56e4uo936vkjaj9ioo7bs0cqste.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx_vyRZcyMkM_Vh9rTJgKgW_XAW5r9Nyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588616125793-qd61r56e4uo936vkjaj9ioo7bs0cqste.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
