@@ -18,14 +18,14 @@ class SplashPage extends StatelessWidget {
           children: const [
             Icon(
               Icons.local_police_outlined,
-              color: Colors.pink,
+              color: Color.fromARGB(255, 159, 30, 233),
               size: 200,
             ),
             SizedBox(
               height: 50,
             ),
             Text(
-              "Police Tracker",
+              "Vmonitor",
               style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,

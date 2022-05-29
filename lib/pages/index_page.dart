@@ -84,13 +84,14 @@ class _IndexPageState extends State<IndexPage> {
                                           endValue: 180,
                                           gradient: SweepGradient(colors: [
                                             Colors.green,
-                                            Colors.pink
+                                            Color.fromARGB(255, 159, 30, 233)
                                           ]))
                                     ],
                                     pointers: <GaugePointer>[
                                       NeedlePointer(
                                         value: double.parse(data["speed"]),
-                                        needleColor: Colors.pink,
+                                        needleColor:
+                                            Color.fromARGB(255, 159, 30, 233),
                                       )
                                     ],
                                     annotations: <GaugeAnnotation>[
@@ -136,7 +137,8 @@ class _IndexPageState extends State<IndexPage> {
                                             color:
                                                 data["allBeltsFastened"] == true
                                                     ? Colors.green
-                                                    : Colors.pink)),
+                                                    : Color.fromARGB(
+                                                        255, 159, 30, 233))),
                                   ],
                                 ),
                                 Column(
@@ -153,7 +155,8 @@ class _IndexPageState extends State<IndexPage> {
                                             fontSize: 25,
                                             fontWeight: FontWeight.bold,
                                             color: data["isDrunk"] == true
-                                                ? Colors.pink
+                                                ? Color.fromARGB(
+                                                    255, 159, 30, 233)
                                                 : Colors.green)),
                                   ],
                                 ),
@@ -171,7 +174,8 @@ class _IndexPageState extends State<IndexPage> {
                                 data["allBeltsFastened"] == false
                                     ? ClipOval(
                                         child: Material(
-                                          color: Colors.pink,
+                                          color:
+                                              Color.fromARGB(255, 159, 30, 233),
                                           elevation: 30,
                                           child: Padding(
                                             padding: const EdgeInsets.all(8.0),
@@ -207,11 +211,11 @@ class _IndexPageState extends State<IndexPage> {
                                     padding: const EdgeInsets.only(top: 70),
                                     child: ClipOval(
                                       child: Material(
-                                        color:
-                                            double.parse(data["speed"]) > 80 ==
-                                                    true
-                                                ? Colors.pink
-                                                : Colors.green,
+                                        color: double.parse(data["speed"]) >
+                                                    80 ==
+                                                true
+                                            ? Color.fromARGB(255, 159, 30, 233)
+                                            : Colors.green,
                                         elevation: 30,
                                         child: Padding(
                                           padding: const EdgeInsets.all(8.0),
@@ -230,7 +234,8 @@ class _IndexPageState extends State<IndexPage> {
                                 data["isDrunk"] == true
                                     ? ClipOval(
                                         child: Material(
-                                          color: Colors.pink,
+                                          color:
+                                              Color.fromARGB(255, 159, 30, 233),
                                           elevation: 30,
                                           child: Padding(
                                             padding: const EdgeInsets.all(8.0),
